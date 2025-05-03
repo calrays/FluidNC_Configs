@@ -25,7 +25,7 @@ axes:
     steps_per_mm: 50.000
     max_rate_mm_per_min: 9000.000
     acceleration_mm_per_sec2: 200.000
-    max_travel_mm: 1220
+    max_travel_mm: 650
     soft_limits: false
     homing:
       cycle: 2
@@ -50,7 +50,7 @@ axes:
         r_sense_ohms: 0.110
         run_amps: 0.800
         homing_amps: 0.800
-        hold_amps: 0.500
+        hold_amps: 0.700
         microsteps: 8
         stallguard: 0
         stallguard_debug: false
@@ -68,7 +68,7 @@ axes:
     steps_per_mm: 50.000
     max_rate_mm_per_min: 9000.000
     acceleration_mm_per_sec2: 200.000
-    max_travel_mm: 2440
+    max_travel_mm: 1300
     soft_limits: false
     homing:
       cycle: 2
@@ -93,7 +93,7 @@ axes:
         r_sense_ohms: 0.110
         run_amps: 0.800
         homing_amps: 0.800
-        hold_amps: 0.500
+        hold_amps: 0.700
         microsteps: 8
         stallguard: 0
         stallguard_debug: false
@@ -121,7 +121,7 @@ axes:
         r_sense_ohms: 0.110
         run_amps: 0.800
         homing_amps: 0.800
-        hold_amps: 0.500
+        hold_amps: 0.700
         microsteps: 8
         stallguard: 0
         stallguard_debug: false
@@ -139,7 +139,7 @@ axes:
     steps_per_mm: 200.000
     max_rate_mm_per_min: 1200.000
     acceleration_mm_per_sec2: 80.000
-    max_travel_mm: 300.000
+    max_travel_mm: 105.000
     soft_limits: false
     homing:
       cycle: 1
@@ -164,7 +164,7 @@ axes:
         r_sense_ohms: 0.110
         run_amps: 0.800
         homing_amps: 0.800
-        hold_amps: 0.500
+        hold_amps: 0.700
         microsteps: 8
         stallguard: 0
         stallguard_debug: false
@@ -192,7 +192,7 @@ axes:
         r_sense_ohms: 0.110
         run_amps: 0.800
         homing_amps: 0.800
-        hold_amps: 0.500
+        hold_amps: 0.700
         microsteps: 8
         stallguard: 0
         stallguard_debug: false
@@ -233,7 +233,7 @@ axes:
 #        addr: 3
 #        cs_pin: i2so.22
 #        r_sense_ohms: 0.110
-#        run_amps: 0.800
+#        run_amps: .8
 #        homing_amps: 0.800
 #        hold_amps: 0.050
 #        microsteps: 16
